@@ -6,9 +6,8 @@ function random_Quote(){
     .then(data=>data.content)
 }
 
-async function getNextQuote(){
-    const quote=await random_Quote()
-    console.log(quote);
+async function renderNewQuote(){
+    const quote=await random_Quote();
 }
 
-getNextQuote();
+renderNewQuote();
