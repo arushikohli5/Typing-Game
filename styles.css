@@ -55,6 +55,14 @@ body, .quote-input{
     border-color: black;
 }
 
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
 
 
 
