@@ -37,7 +37,7 @@ function random_Quote(){
 
 async function renderNewQuote(){
     const quote=await random_Quote();
-    quoteDisplayElement.innerText='';
+    quoteDisplayElement.innerHtml='';
     quote.split('').forEach(char => {
         const charSpan=document.createElement('span');
         charSpan.innerText=char;
